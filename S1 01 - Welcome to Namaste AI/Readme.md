@@ -117,28 +117,28 @@ At a very high level, here's what happens when you type a question into ChatGPT:
    You type: "Explain recursion in simple terms"
                     │
                     ▼
-   ┌────────────────────────────────┐
+   ┌───────────────────────────────┐
    │   Tokenization                │   Your text is broken into tokens
    │   "Explain" "recurs" "ion"    │   (sub-word pieces the model understands)
-   └──────────────┬─────────────────┘
+   └──────────────┬────────────────┘
                   │
                   ▼
-   ┌────────────────────────────────┐
+   ┌───────────────────────────────┐
    │   Embedding                   │   Each token is converted into a
    │   [0.12, -0.45, 0.78, ...]    │   high-dimensional number vector
-   └──────────────┬─────────────────┘
+   └──────────────┬────────────────┘
                   │
                   ▼
-   ┌────────────────────────────────┐
+   ┌───────────────────────────────┐
    │   Transformer (LLM)           │   The model processes all tokens
    │   Attention + Feed-Forward    │   through layers of neural networks
-   └──────────────┬─────────────────┘
+   └──────────────┬────────────────┘
                   │
                   ▼
-   ┌────────────────────────────────┐
+   ┌───────────────────────────────┐
    │   Prediction                  │   The model predicts the next token
    │   "Recursion" "is" "when"...  │   one at a time (autoregressive)
-   └──────────────┬─────────────────┘
+   └──────────────┬────────────────┘
                   │
                   ▼
    AI Response: "Recursion is when a function calls itself..."
