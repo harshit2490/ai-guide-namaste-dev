@@ -2,10 +2,10 @@
 
 > A deep, chapter-wise reference for mastering **AI** concepts. Every concept ships with understanding modern AI deeply and learn to build real products using **LLMs, RAG, agents and MCP**. Based on the Namaste AI series by Akshay Saini.
 
-![AI](https://img.shields.io/badge/AI-blue?style=for-the-badge&logo=googlegemini&logoColor=white)
+![AI](https://img.shields.io/badge/AI-078EFA?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Interview](https://img.shields.io/badge/Interview-Ready-4CAF50?style=for-the-badge)
-![Seasons](https://img.shields.io/badge/Seasons-5-purple?style=for-the-badge)
-![Chapters](https://img.shields.io/badge/Chapters-29-maroon?style=for-the-badge)
+![Seasons](https://img.shields.io/badge/Seasons-5-AD89EB?style=for-the-badge)
+![Chapters](https://img.shields.io/badge/Chapters-29-FF6B6B?style=for-the-badge)
 
 ---
 
