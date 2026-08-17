@@ -32,51 +32,6 @@ It is the field of computer science focused on building systems that can perform
 
 > 💡 AI is not a single technology — it's an umbrella term for a wide range of techniques, from simple rule-based systems to powerful neural networks that learn from data.
 
-#### AI vs ML vs DL vs GenAI
-
-Understanding the hierarchy of AI is essential before diving deeper:
-
-| Term                             | What It Means                                                                                       | Example                                |
-| -------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| **AI (Artificial Intelligence)** | Broad field — any system that mimics human intelligence                                             | Siri, Chess engines, Self-driving cars |
-| **ML (Machine Learning)**        | Subset of AI — systems that **learn from data** instead of being explicitly programmed              | Spam filters, Recommendation engines   |
-| **DL (Deep Learning)**           | Subset of ML — uses **neural networks** with many layers to learn complex patterns                  | Image recognition, Speech-to-text      |
-| **GenAI (Generative AI)**        | Subset of DL — models that **generate new content** (text, images, code, audio)                     | ChatGPT, DALL·E, GitHub Copilot        |
-| **LLM (Large Language Model)**   | A type of GenAI — massive models trained on text data to **understand and generate human language** | GPT-4, Claude, Gemini, LLaMA           |
-
-```
-┌─────────────────────────────────────────────────┐
-│              Artificial Intelligence            │
-│                                                 │
-│    ┌───────────────────────────────────────┐    │
-│    │          Machine Learning             │    │
-│    │                                       │    │
-│    │    ┌─────────────────────────────┐    │    │
-│    │    │       Deep Learning         │    │    │
-│    │    │                             │    │    │
-│    │    │    ┌───────────────────┐    │    │    │
-│    │    │    │   Generative AI   │    │    │    │
-│    │    │    │                   │    │    │    │
-│    │    │    │   ┌───────────┐   │    │    │    │
-│    │    │    │   │   LLMs    │   │    │    │    │
-│    │    │    │   └───────────┘   │    │    │    │
-│    │    │    └───────────────────┘    │    │    │
-│    │    └─────────────────────────────┘    │    │
-│    └───────────────────────────────────────┘    │
-└─────────────────────────────────────────────────┘
-```
-
-### Why AI Matters Now
-
-AI has been around since the 1950s, but several factors have made it explode in recent years:
-
-| Factor                       | Why It Matters                                                                                         |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Massive Data**             | The internet generates petabytes of text, images, and video — perfect training data for AI models      |
-| **Compute Power (GPUs)**     | Modern GPUs (NVIDIA A100, H100) can train models with billions of parameters in weeks instead of years |
-| **Transformer Architecture** | The 2017 "Attention is All You Need" paper introduced Transformers — the backbone of every modern LLM  |
-| **Open-Source Models**       | Meta's LLaMA, Google's Gemma, Mistral — open models democratized access to powerful AI                 |
-| **Developer Tools**          | APIs from OpenAI, Anthropic, Google make it easy for any developer to integrate AI into applications   |
 
 // Need to Add more content...
 
