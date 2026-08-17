@@ -114,7 +114,7 @@ At a very high level, here's what happens when you type a question into ChatGPT:
   <div style="font-size: 0.9rem; color: black; background:#fff; border:2px solid red; border-radius: 10px;">
 
 - **Q: What is Artificial Intelligence?**
-  - A: AI is the field of computer science focused on creating systems that can perform tasks requiring human intelligence — such as understanding language, recognizing patterns, making decisions, and generating content. It encompasses a range of techniques from rule-based systems to deep neural networks.
+  - A: AI is a science of making machines perform tasks that normally require human intelligence. It is the field of computer science focused on creating systems that can perform tasks requiring human intelligence — such as understanding language, recognizing patterns, making decisions, and generating content. It encompasses a range of techniques from rule-based systems to deep neural networks.
 
 - **Q: What is the difference between AI, ML, and Deep Learning?**
   - A: AI is the broadest term — any system that mimics human intelligence. ML is a subset of AI where systems learn from data rather than being explicitly programmed. Deep Learning is a subset of ML that uses multi-layered neural networks to learn complex patterns from large datasets.
@@ -139,9 +139,6 @@ At a very high level, here's what happens when you type a question into ChatGPT:
 
 - **Q: How does an LLM generate a response?**
   - A: An LLM generates responses by: (1) Tokenizing the input text into sub-word tokens, (2) Converting tokens into numerical embeddings, (3) Processing through transformer layers with attention mechanisms, (4) Predicting the next token one at a time (autoregressively) until the response is complete.
-
-- **Q: What is the difference between RAG and Fine-tuning?**
-  - A: RAG retrieves external knowledge **at query time** without modifying the model — it's flexible and cost-effective for adding domain-specific knowledge. Fine-tuning modifies the **model's weights** through additional training — it's better for changing the model's behavior, tone, or teaching specialized skills.
 
     </div>
   </details>
