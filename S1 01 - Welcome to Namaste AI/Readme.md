@@ -13,48 +13,51 @@
 > **Season 1** | Part I — AI Foundations & Concepts
 > [🎬Link](https://namastedev.com/learn/namaste-ai/welcome-to-namaste-ai)
 
----
-💬 **"Time is the biggest currency."** — This course is designed to respect your time. Every concept is explained with clarity and depth, so you learn the *right things* in the *right order* — no fluff, no filler.
+### AI vs ML vs DL vs GenAI vs LLM
 
-### The Namaste AI Roadmap
+Understanding the hierarchy of AI is essential before diving deeper:
 
-This course is structured as a progressive journey from AI fundamentals to building production-ready AI applications:
-
-```mermaid
-graph LR
-    A["🎯 Intro to AI"] --> B["🧠 LLMs"]
-    B --> C["✍️ Prompt Engineering"]
-    C --> D["👨‍💻 AI for SDEs"]
-    D --> E["🛠️ AI Tools"]
-    E --> F["📚 RAG"]
-    F --> G["🤖 AI Agents"]
-    G --> H["🔌 MCP"]
-    H --> I["⚙️ AI Engineering"]
-    I --> J["🚀 Projects"]
+```
+┌─────────────────────────────────────────────────┐
+│              Artificial Intelligence            │
+│                                                 │
+│    ┌───────────────────────────────────────┐    │
+│    │          Machine Learning             │    │
+│    │                                       │    │
+│    │    ┌─────────────────────────────┐    │    │
+│    │    │       Deep Learning         │    │    │
+│    │    │                             │    │    │
+│    │    │    ┌───────────────────┐    │    │    │
+│    │    │    │   Generative AI   │    │    │    │
+│    │    │    │                   │    │    │    │
+│    │    │    │   ┌───────────┐   │    │    │    │
+│    │    │    │   │   LLMs    │   │    │    │    │
+│    │    │    │   └───────────┘   │    │    │    │
+│    │    │    └───────────────────┘    │    │    │
+│    │    └─────────────────────────────┘    │    │
+│    └───────────────────────────────────────┘    │
+└─────────────────────────────────────────────────┘
 ```
 
-#### Season-by-Season Breakdown
+| Term                             | What It Means                                                                                       | Example                                |
+| -------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| **AI (Artificial Intelligence)** | Broad field — any system that mimics human intelligence                                             | Siri, Chess engines, Self-driving cars |
+| **ML (Machine Learning)**        | Subset of AI — systems that **learn from data** instead of being explicitly programmed              | Spam filters, Recommendation engines   |
+| **DL (Deep Learning)**           | Subset of ML — uses **neural networks** with many layers to learn complex patterns                  | Image recognition, Speech-to-text      |
+| **GenAI (Generative AI)**        | Subset of DL — models that **generate new content** (text, images, code, audio)                     | ChatGPT, DALL·E, GitHub Copilot        |
+| **LLM (Large Language Model)**   | A type of GenAI — massive models trained on text data to **understand and generate human language** | GPT-4, Claude, Gemini, LLaMA           |
 
-| Season | Title                               | What You'll Learn                                                                               |
-| ------ | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **S1** | Inside the Mind of AI               | How AI works — LLMs, tokens, embeddings, training, reasoning, and the full AI pipeline          |
-| **S2** | AI Native Software Engineer         | How software engineers use AI tools to build smarter, write code faster, and solve problems      |
-| **S3** | Building AI Applications            | Build real AI-powered applications — integrate LLMs via APIs, build chat interfaces, and deploy  |
-| **S4** | Giving AI Knowledge (RAG)           | Retrieval Augmented Generation — give AI access to your own data, documents, and knowledge bases |
-| **S5** | From Chatbot to Agents              | Build autonomous AI agents that can reason, plan, use tools, and interact via MCP               |
+### Why AI Matters Now
 
-#### Key Topics Covered in This Course
+AI has been around since the 1950s, but several factors have made it explode in recent years:
 
-| Topic                        | What It Is                                                                                               |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **LLMs**                     | Large Language Models — the AI models (GPT, Claude, Gemini) that understand and generate human language   |
-| **Prompt Engineering**       | The art of writing effective instructions to get the best output from AI models                           |
-| **AI for SDEs**              | How software engineers build AI-powered apps, integrate APIs, and solve real-world problems with AI      |
-| **AI Tools**                 | New developer tools (Copilot, Cursor, v0) that are changing how software is built                        |
-| **RAG**                      | Retrieval Augmented Generation — connecting AI to external knowledge sources for accurate, grounded answers |
-| **AI Agents**                | Autonomous AI systems that can reason, plan, and take actions using tools                                |
-| **MCP**                      | Model Context Protocol — a standard for connecting AI models to external tools and data sources           |
-| **AI Engineering**           | The discipline of building, deploying, and maintaining production AI systems                              |
+| Factor                       | Why It Matters                                                                                         |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Massive Data**             | The internet generates petabytes of text, images, and video — perfect training data for AI models      |
+| **Compute Power (GPUs)**     | Modern GPUs (NVIDIA A100, H100) can train models with billions of parameters in weeks instead of years |
+| **Transformer Architecture** | The 2017 "Attention is All You Need" paper introduced Transformers — the backbone of every modern LLM  |
+| **Open-Source Models**       | Meta's LLaMA, Google's Gemma, Mistral — open models democratized access to powerful AI                 |
+| **Developer Tools**          | APIs from OpenAI, Anthropic, Google make it easy for any developer to integrate AI into applications   |
 
 ### How Modern AI Systems Work (High-Level)
 
