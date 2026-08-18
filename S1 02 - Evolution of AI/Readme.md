@@ -64,18 +64,18 @@ timeline
 
 | Year            | Milestone                   | Significance                                                                                                                                               |
 | --------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1950**        | Alan Turing — Turing Test   | Introduced a seminal paper examining machine thinking capabilities                                                                                         |
-| **1956**        | John McCarthy & Co-founders | Established the field of AI: _"Every aspect of learning and intelligence could, in principle, be described precisely enough for a machine to simulate it"_ |
-| **1950s–1980s** | Rule-Based AI               | Domain experts designed manual "Expert Systems" with hardcoded logic                                                                                       |
-| **1986**        | Neural Networks             | Computational systems started discerning and learning directly from data patterns                                                                          |
-| **1997**        | IBM's Deep Blue             | Achieved a historic victory over world chess champion Garry Kasparov                                                                                       |
-| **1990s**       | Machine Learning Era        | Algorithms that learn from data instead of following hardcoded rules                                                                                       |
-| **2000s**       | Deep Learning Advancements  | Multi-layered neural networks for complex pattern recognition                                                                                              |
-| **2012**        | AlexNet Breakthrough        | Revolutionized computer vision — machines could truly perceive visual information                                                                          |
-| **2016**        | AlphaGo                     | Defeated world Go champion Lee Sedol — a game thought too complex for AI                                                                                   |
-| **2017**        | Transformer Architecture    | "Attention Is All You Need" paper — the backbone of every modern LLM                                                                                       |
-| **2022**        | ChatGPT Launch              | AI goes mainstream — conversational AI accessible to the general public                                                                                    |
-| **2025+**       | Agentic AI                  | Rise of autonomous AI systems that reason, plan, and take actions                                                                                          |
+| **1950**        | Alan Turing — Turing Test   | Introduced a seminal paper examining **machine thinking** capabilities                                                                                         |
+| **1956**        | John McCarthy & Co-founders | **Established the field of AI**: _"Every aspect of learning and intelligence could, in principle, be described precisely enough for a machine to simulate it"_ |
+| **1950s–1980s** | Rule-Based AI               | Domain experts designed manual **"Expert Systems"** with hardcoded logic                                                                                       |
+| **1986**        | Neural Networks             | Computational systems started **discerning and learning directly from data** patterns                                                                          |
+| **1997**        | IBM's Deep Blue             | Achieved a **historic victory over world chess champion** Garry Kasparov                                                                                       |
+| **1990s**       | Machine Learning Era        | Algorithms that **learn from data** instead of following hardcoded rules                                                                                       |
+| **2000s**       | Deep Learning Advancements  | **Multi-layered neural networks** for complex pattern recognition                                                                                              |
+| **2012**        | AlexNet Breakthrough        | **Revolutionized computer vision** — machines could truly perceive visual information                                                                          |
+| **2016**        | AlphaGo                     | Defeated world **Go champion Lee Sedol** — a game thought too complex for AI                                                                                   |
+| **2017**        | Transformer Architecture    | **"Attention Is All You Need"** paper — the **backbone of every modern LLM**                                                                                   |
+| **2022**        | ChatGPT Launch              | **AI goes mainstream** — conversational AI accessible to the general public                                                                                    |
+| **2025+**       | Agentic AI                  | Rise of **autonomous AI systems** that reason, plan, and take actions                                                                                          |
 
 ---
 
