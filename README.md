@@ -38,22 +38,7 @@ graph LR
 | **S4** | [Giving AI Knowledge (RAG)](#season-4)   | Retrieval Augmented Generation — give AI access to your own data, documents, & knowledge bases |
 | **S5** | [From Chatbot to Agents](#season-5)      | Build autonomous AI agents that can reason, plan, use tools, & interact via MCP                |
 
-### Key Topics Covered in This Course
-
-| Topic                  | What It Is                                                                                                  |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------- |
-| **LLMs**               | Large Language Models — the AI models (GPT, Claude, Gemini) that understand and generate human language     |
-| **Prompt Engineering** | The art of writing effective instructions to get the best output from AI models                             |
-| **AI for SDEs**        | How software engineers build AI-powered apps, integrate APIs, and solve real-world problems with AI         |
-| **AI Tools**           | New developer tools (Copilot, Cursor, v0) that are changing how software is built                           |
-| **RAG**                | Retrieval Augmented Generation — connecting AI to external knowledge sources for accurate, grounded answers |
-| **AI Agents**          | Autonomous AI systems that can reason, plan, and take actions using tools                                   |
-| **MCP**                | Model Context Protocol — a standard for connecting AI models to external tools and data sources             |
-| **AI Engineering**     | The discipline of building, deploying, and maintaining production AI systems                                |
-
 ---
-
-</br>
 
 # 📑 Table of Contents
 
