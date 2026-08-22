@@ -137,9 +137,6 @@ At a very high level, here's what happens when you type a question into ChatGPT:
 - **Q: What is MCP (Model Context Protocol)?**
   - A: MCP is a standard protocol for connecting AI models to external tools and data sources. It provides a standardized interface for AI models to discover, connect to, and interact with tools, databases, and APIs — making AI applications more modular and interoperable.
 
-- **Q: How does an LLM generate a response?**
-  - A: An LLM generates responses by: (1) Tokenizing the input text into sub-word tokens, (2) Converting tokens into numerical embeddings, (3) Processing through transformer layers with attention mechanisms, (4) Predicting the next token one at a time (autoregressively) until the response is complete.
-
     </div>
   </details>
   </div>
