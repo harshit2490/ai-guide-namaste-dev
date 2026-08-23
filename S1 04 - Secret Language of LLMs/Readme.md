@@ -91,7 +91,7 @@ Because computers cannot directly process words, text must be **broken down into
 
 ## 3. Subword Tokenization — Why Models Use It
 
-**Subword tokenization strikes an optimal balance** between two traditional approaches:
+> **Subword tokenization strikes an optimal balance** between two traditional approaches:
 
 | Approach                    | Problem                               | Example                                     |
 | --------------------------- | ------------------------------------- | ------------------------------------------- |
