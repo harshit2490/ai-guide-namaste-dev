@@ -167,7 +167,7 @@
 
 #### Real-World Example
 
-> 💡 A model might correctly identify the Chief Minister of Uttar Pradesh as **"Shri Yogi Adityanath Ji Maharaj"**, but it will not automatically register updates when new elections take place in 2027. **_(But in 2027 he will be CM again 😀)_**
+> 💡 A model might correctly identify the Chief Minister of Uttar Pradesh as **"Shri Yogi Adityanath Ji Maharaj"**, but it will not automatically register updates when new elections take place in 2027. **_(But in 2027 Maharaj Ji will be CM again 😀)_**
 
 ```
    ┌───────────────────────────────────────────────────────────┐
