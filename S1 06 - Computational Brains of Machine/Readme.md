@@ -11,7 +11,7 @@
 # Chapter 6 — Computational Brains of Machine &nbsp;
 
 > **Season 1** | Part I — AI Foundations & Concepts
-> [🎬Link](https://namastedev.com/learn/namaste-ai)
+> [🎬Link](https://namastedev.com/learn/namaste-ai/the-computational-brain-of-machines)
 
 ---
 
