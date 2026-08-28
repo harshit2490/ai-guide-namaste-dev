@@ -1,7 +1,7 @@
 <div align="center">
 
-|                                                          ← Previous                                                          | [⬆ Back to TOC](../README.md#part-1) |                                                    Next →                                                    |
-| :---------------------------------------------------------------------------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------------------------------------------------------: |
+|                                                  ← Previous                                                  | [⬆ Back to TOC](../README.md#part-1) |                                         Next →                                         |
+| :----------------------------------------------------------------------------------------------------------: | :----------------------------------: | :------------------------------------------------------------------------------------: |
 | [Chapter 5: How Machine Represents Meaning](../S1%2005%20-%20How%20Machine%20represents%20Meaning/Readme.md) |                                      | [Chapter 7: Sharpening the Brain](../S1%2007%20-%20Sharpening%20the%20Brain/Readme.md) |
 
 </div>
@@ -34,11 +34,11 @@ Large Language Models function as **next-token predictors** through three core s
 
 ![Three Stages of LLM Inference](images/1.%20Stages%20of%20LLMs.png)
 
-| Stage | Name                              | What Happens                                                           |
-| ----- | --------------------------------- | ---------------------------------------------------------------------- |
-| **1** | **Tokenization & Embedding**      | Text is broken into tokens, then converted into numerical vectors (embeddings) that capture semantic meaning |
-| **2** | **Neural Network Processing**     | The model processes these vectors using a pre-trained neural network, identifying patterns and relationships |
-| **3** | **Probabilistic Output**          | The model calculates probabilities for potential next words and outputs a ranked list of candidates |
+| Stage | Name                          | What Happens                                                                                                 |
+| ----- | ----------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **1** | **Tokenization & Embedding**  | Text is broken into tokens, then converted into numerical vectors (embeddings) that capture semantic meaning |
+| **2** | **Neural Network Processing** | The model processes these vectors using a pre-trained neural network, identifying patterns and relationships |
+| **3** | **Probabilistic Output**      | The model calculates probabilities for potential next words and outputs a ranked list of candidates          |
 
 > 💡 The model doesn't "choose" a single word — it produces a **probability distribution** over its entire vocabulary. The highest-probability token is typically selected as the prediction.
 
@@ -48,23 +48,23 @@ Large Language Models function as **next-token predictors** through three core s
 
 > **GPT** = **G**enerative **P**re-trained **T**ransformer
 
-| Component          | Meaning                                                                         |
-| ------------------ | ------------------------------------------------------------------------------- |
-| **Generative**     | It **generates** new text based on its knowledge — it does not retrieve existing documents |
-| **Pre-trained**    | The model is **already trained** on massive datasets before being used           |
-| **Transformer**    | The core **neural network architecture** that powers the model                   |
+| Component       | Meaning                                                                                    |
+| --------------- | ------------------------------------------------------------------------------------------ |
+| **Generative**  | It **generates** new text based on its knowledge — it does not retrieve existing documents |
+| **Pre-trained** | The model is **already trained** on massive datasets before being used                     |
+| **Transformer** | The core **neural network architecture** that powers the model                             |
 
 #### What is a Transformer?
 
 > "A Transformer is a type of neural network design that reads **entire sentences or blocks of data all at once** instead of word by word. It powers modern AI tools like ChatGPT, Claude, and Gemini."
 
-| Aspect             | Details                                                                 |
-| ------------------- | ----------------------------------------------------------------------- |
-| **Introduced**      | 2017, by Google researchers                                             |
-| **Research Paper**  | "Attention Is All You Need"                                             |
-| **Before Transformers** | RNNs (Recurrent Neural Networks) and LSTMs were used              |
-| **Key Innovation**  | Processes sequences using **attention** instead of sequential processing |
-| **Core Insight**    | The heart of the neural network is the Transformer, and the heart of the Transformer is **Attention** |
+| Aspect                  | Details                                                                                               |
+| ----------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Introduced**          | 2017, by Google researchers                                                                           |
+| **Research Paper**      | "Attention Is All You Need"                                                                           |
+| **Before Transformers** | RNNs (Recurrent Neural Networks) and LSTMs were used                                                  |
+| **Key Innovation**      | Processes sequences using **attention** instead of sequential processing                              |
+| **Core Insight**        | The heart of the neural network is the Transformer, and the heart of the Transformer is **Attention** |
 
 > ⚠️ **Important**: GPT is **not** synonymous with the LLM assistant ChatGPT. GPT refers to the architecture (Generative Pre-trained Transformer). All modern LLMs use this architecture — OpenAI was simply the first mover to name their assistant product "ChatGPT."
 
@@ -127,10 +127,10 @@ Each token in a sentence looks at **every other token in the same sentence** to 
 
 In **autoregressive** models (like GPT), the model must predict the next token **without seeing future tokens**. This is enforced by **masking**:
 
-| Term         | Meaning                                                              |
-| ------------ | -------------------------------------------------------------------- |
-| **Masked**   | Hiding parts of the sentence — future tokens are blocked             |
-| **Causal**   | Causes come before effects — information flows **past → present** only |
+| Term       | Meaning                                                                |
+| ---------- | ---------------------------------------------------------------------- |
+| **Masked** | Hiding parts of the sentence — future tokens are blocked               |
+| **Causal** | Causes come before effects — information flows **past → present** only |
 
 ```
    Token:      The    cat    sat    on    the    mat
@@ -158,40 +158,18 @@ In **autoregressive** models (like GPT), the model must predict the next token *
 
 Instead of running self-attention once, the model runs it **multiple times in parallel** — each "head" focuses on different relationship patterns:
 
-| Head   | What It Might Focus On                          |
-| ------ | ----------------------------------------------- |
-| Head 1 | Syntactic relationships (subject ↔ verb)        |
-| Head 2 | Semantic relationships (meaning connections)     |
-| Head 3 | Positional proximity (nearby words)              |
-| Head N | Other patterns learned during training            |
+| Head   | What It Might Focus On                       |
+| ------ | -------------------------------------------- |
+| Head 1 | Syntactic relationships (subject ↔ verb)     |
+| Head 2 | Semantic relationships (meaning connections) |
+| Head 3 | Positional proximity (nearby words)          |
+| Head N | Other patterns learned during training       |
 
 > 💡 **Multi-head causal self-attention** allows every token to gather information from previous tokens using multiple attention heads, while preventing it from looking into the future.
 
 ### The Full Transformer Block
 
-![LLM Prediction Pipeline — Full Transformer Architecture](images/2.%20LLM%20Prediction%20Pipeline.png)
-
-```mermaid
-graph LR
-    A["📝 Input Tokens"] --> B["🔢 Token Embedding"]
-    C["📍 Positional Embedding"] --> D["➕ Token + Position"]
-    B --> D
-    
-    subgraph Transformer["⚙️ Transformer Block (repeated N times)"]
-        direction TB
-        E["📊 Layer Norm"] --> F["🧠 Multi-Head Causal\nSelf-Attention"]
-        F --> G["➕ Residual Connection"]
-        G --> H["📊 Layer Norm"]
-        H --> I["🔗 Feed-Forward Network"]
-        I --> J["➕ Residual Connection"]
-    end
-    
-    D --> Transformer
-    Transformer --> K["📊 Layer Norm"]
-    K --> L["📐 Linear Layer"]
-    L --> M["📊 Softmax"]
-    M --> N["🎯 Next Token Prediction"]
-```
+<img src="images/2. LLM Workflow.png" alt="LLM Prediction Pipeline — Full Transformer Architecture" width="650" height="500" />
 
 ### Layer Normalization (LayerNorm)
 
@@ -199,11 +177,11 @@ graph LR
 
 During mathematical operations, numbers can become **very large or very small**, making calculations complex. Normalization adjusts the numbers inside each layer so they have a **stable mean and variance**.
 
-| Problem Without LayerNorm              | Solution With LayerNorm                         |
-| -------------------------------------- | ----------------------------------------------- |
-| Numbers grow extremely large or small  | Values are rescaled to a stable range           |
-| Training becomes unstable              | Model learns smoothly and converges faster      |
-| Gradient issues (vanishing/exploding)  | Gradients remain in a healthy range              |
+| Problem Without LayerNorm             | Solution With LayerNorm                    |
+| ------------------------------------- | ------------------------------------------ |
+| Numbers grow extremely large or small | Values are rescaled to a stable range      |
+| Training becomes unstable             | Model learns smoothly and converges faster |
+| Gradient issues (vanishing/exploding) | Gradients remain in a healthy range        |
 
 > 🧪 **Open Research Question**: "When normalization happens, does the model lose the memory?" — This is an open question worth researching. If you discover the answer, update these notes!
 
@@ -241,10 +219,10 @@ A Feed-Forward Network is a key building block inside a Transformer that process
    └───────────────┘      └─────────────────┘     └────────────────┘      └───────────────┘
 ```
 
-| Phase           | What Happens                                                          |
-| --------------- | --------------------------------------------------------------------- |
-| **Attention**   | Tokens **interact** with each other — "bank" looks at "river" or "money" to find its meaning |
-| **FFN**         | Each token **processes independently** — it "thinks" about what it learned from attention    |
+| Phase         | What Happens                                                                                 |
+| ------------- | -------------------------------------------------------------------------------------------- |
+| **Attention** | Tokens **interact** with each other — "bank" looks at "river" or "money" to find its meaning |
+| **FFN**       | Each token **processes independently** — it "thinks" about what it learned from attention    |
 
 > 💡 The hidden layers in FFN are where the model **tweaks** the output embeddings after the attention phase. The FFN applies non-linear transformations that help the model learn complex patterns.
 
@@ -254,10 +232,10 @@ A Feed-Forward Network is a key building block inside a Transformer that process
 
 After all Transformer blocks have processed the input, the final steps convert the refined embeddings into a **next-token prediction**:
 
-| Component        | What It Does                                                                    | Analogy                       |
-| ---------------- | ------------------------------------------------------------------------------- | ----------------------------- |
-| **Linear Layer** | Changes the size and shape of information — maps embeddings to vocabulary size   | A "math machine"              |
-| **Softmax**      | Turns raw numbers (logits) into probabilities that **add up to 100%**           | A "referee"                   |
+| Component        | What It Does                                                                   | Analogy          |
+| ---------------- | ------------------------------------------------------------------------------ | ---------------- |
+| **Linear Layer** | Changes the size and shape of information — maps embeddings to vocabulary size | A "math machine" |
+| **Softmax**      | Turns raw numbers (logits) into probabilities that **add up to 100%**          | A "referee"      |
 
 #### Example: Probabilistic Output
 
@@ -289,11 +267,11 @@ After all Transformer blocks have processed the input, the final steps convert t
 
 The attention mechanism relies on three fundamental vectors to process information and determine relationships:
 
-| Vector       | Role                                                                                 | Analogy              |
-| ------------ | ------------------------------------------------------------------------------------ | -------------------- |
-| **Query (Q)** | Represents the token the model is currently focusing on — asks **"What am I looking for?"** | The **search query** |
-| **Key (K)**   | Represents all other tokens — acts as an **identifier** that Q is compared against   | The **dictionary key** |
-| **Value (V)** | Contains the **actual information** associated with each key                         | The **dictionary value** |
+| Vector        | Role                                                                                        | Analogy                  |
+| ------------- | ------------------------------------------------------------------------------------------- | ------------------------ |
+| **Query (Q)** | Represents the token the model is currently focusing on — asks **"What am I looking for?"** | The **search query**     |
+| **Key (K)**   | Represents all other tokens — acts as an **identifier** that Q is compared against          | The **dictionary key**   |
+| **Value (V)** | Contains the **actual information** associated with each key                                | The **dictionary value** |
 
 #### Software Analogy
 
@@ -345,15 +323,15 @@ The model computes **attention scores** (relevance) between Q and each K. Once t
 
 ### Common Misconceptions
 
-| Misconception                                                | Reality                                                                                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| "Transformers read text word by word"                        | ❌ Transformers process **entire sequences at once** using attention — unlike RNNs which process sequentially  |
-| "Attention means the model understands meaning"              | ❌ Attention computes **relevance scores** between tokens — it captures statistical patterns, not true understanding |
-| "GPT = ChatGPT"                                             | ❌ GPT is the **architecture** (Generative Pre-trained Transformer). ChatGPT is OpenAI's specific **product** built on it |
-| "Each Transformer layer starts from scratch"                 | ❌ **Residual connections** preserve information — each layer adds an update on top of existing representations |
-| "FFN and Attention do the same thing"                        | ❌ Attention lets tokens **communicate**; FFN lets each token **process independently**                        |
-| "Softmax picks the best word"                                | ❌ Softmax produces a **probability distribution** over all vocabulary tokens — it doesn't "pick" a single word |
-| "Self-attention can see future tokens"                       | ❌ In GPT-style models, **masked/causal** self-attention blocks future tokens — information flows past → present only |
+| Misconception                                   | Reality                                                                                                                   |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| "Transformers read text word by word"           | ❌ Transformers process **entire sequences at once** using attention — unlike RNNs which process sequentially             |
+| "Attention means the model understands meaning" | ❌ Attention computes **relevance scores** between tokens — it captures statistical patterns, not true understanding      |
+| "GPT = ChatGPT"                                 | ❌ GPT is the **architecture** (Generative Pre-trained Transformer). ChatGPT is OpenAI's specific **product** built on it |
+| "Each Transformer layer starts from scratch"    | ❌ **Residual connections** preserve information — each layer adds an update on top of existing representations           |
+| "FFN and Attention do the same thing"           | ❌ Attention lets tokens **communicate**; FFN lets each token **process independently**                                   |
+| "Softmax picks the best word"                   | ❌ Softmax produces a **probability distribution** over all vocabulary tokens — it doesn't "pick" a single word           |
+| "Self-attention can see future tokens"          | ❌ In GPT-style models, **masked/causal** self-attention blocks future tokens — information flows past → present only     |
 
 <div style="font-size: 22px; color: red">
 <details>
@@ -422,8 +400,8 @@ The model computes **attention scores** (relevance) between Q and each K. Once t
 
 <div align="center">
 
-|                                                          ← Previous                                                          | [⬆ Back to TOC](../README.md#part-1) |                                                    Next →                                                    |
-| :---------------------------------------------------------------------------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------------------------------------------------------: |
+|                                                  ← Previous                                                  | [⬆ Back to TOC](../README.md#part-1) |                                         Next →                                         |
+| :----------------------------------------------------------------------------------------------------------: | :----------------------------------: | :------------------------------------------------------------------------------------: |
 | [Chapter 5: How Machine Represents Meaning](../S1%2005%20-%20How%20Machine%20represents%20Meaning/Readme.md) |                                      | [Chapter 7: Sharpening the Brain](../S1%2007%20-%20Sharpening%20the%20Brain/Readme.md) |
 
 </div>
