@@ -15,19 +15,23 @@
 
 ---
 
+<a id="key-topics"></a>
+
 ### Topics Covering
 
-> 1. What is Artificial Intelligence
-> 2. Why AI was difficult for decades
-> 3. Why Machine Learning became necessary
-> 4. Why Deep Learning changed everything
-> 5. How Transformers revolutionized AI
-> 6. How LLMs became popular
-> 7. Why Agentic AI is the next evolution
+> 1. [What is Artificial Intelligence](#topic-1)
+> 2. [Why AI was difficult for decades](#topic-2)
+> 3. [Why Machine Learning became necessary](#topic-3)
+> 4. [Why Deep Learning changed everything](#topic-4)
+> 5. [How Transformers revolutionized AI](#topic-5)
+> 6. [How LLMs became popular](#topic-6)
+> 7. [Why Agentic AI is the next evolution](#topic-7)
 
 ---
 
-## 1. What is Artificial Intelligence?
+<a id="topic-1"></a>
+
+## 1. [What is Artificial Intelligence?](#key-topics)
 
 _**Artificial Intelligence (AI) is a science of making machines perform tasks that normally require human intelligence.**_
 
@@ -62,8 +66,8 @@ timeline
           : Autonomous AI systems
 ```
 
-| Year            | Milestone                   | Significance                                                                                                                                               |
-| --------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Year            | Milestone                   | Significance                                                                                                                                                   |
+| --------------- | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1950**        | Alan Turing — Turing Test   | Introduced a seminal paper examining **machine thinking** capabilities                                                                                         |
 | **1956**        | John McCarthy & Co-founders | **Established the field of AI**: _"Every aspect of learning and intelligence could, in principle, be described precisely enough for a machine to simulate it"_ |
 | **1950s–1980s** | Rule-Based AI               | Domain experts designed manual **"Expert Systems"** with hardcoded logic                                                                                       |
@@ -79,7 +83,9 @@ timeline
 
 ---
 
-## 2. Rule-Based AI Era (1950s–1980s) — Why AI Was Difficult for Decades
+<a id="topic-2"></a>
+
+## 2. [Rule-Based AI Era (1950s–1980s) — Why AI Was Difficult for Decades](#key-topics)
 
 Under this early paradigm, intelligence was viewed merely as a **structured set of predefined rules**. Human experts built "Expert Systems" by manually coding vast rule bases to drive decision-making.
 
@@ -119,7 +125,9 @@ Under this early paradigm, intelligence was viewed merely as a **structured set 
 
 ---
 
-## 3. Machine Learning (ML) — Why ML Became Necessary
+<a id="topic-3"></a>
+
+## 3. [Machine Learning (ML) — Why ML Became Necessary](#key-topics)
 
 **Machine Learning is a subset of AI that uses algorithms to analyze data, learn from it, and make decisions/predictions.**
 
@@ -171,7 +179,9 @@ Under this early paradigm, intelligence was viewed merely as a **structured set 
 
 ---
 
-## 4. Deep Learning (DL) — Why DL Changed Everything
+<a id="topic-4"></a>
+
+## 4. [Deep Learning (DL) — Why DL Changed Everything](#key-topics)
 
 **Deep Learning is a specialized subset of ML based on Artificial Neural Networks (ANNs) inspired by the human brain.**
 
@@ -228,7 +238,9 @@ A key breakthrough occurred in **2012 with AlexNet**, developed by Alex Krizhevs
 
 ---
 
-## 5. Transformers (2017) — How Transformers Revolutionized AI
+<a id="topic-5"></a>
+
+## 5. [Transformers (2017) — How Transformers Revolutionized AI](#key-topics)
 
 Introduced in the landmark research paper **"Attention Is All You Need"**, the Transformer architecture stands as one of the most remarkable breakthroughs in the history of artificial intelligence.
 
@@ -267,7 +279,9 @@ The Transformer model dynamically determines that **"it" refers to "the lion"** 
 
 ---
 
-## 6. Large Language Models (LLMs) & Generative AI — How LLMs Became Popular
+<a id="topic-6"></a>
+
+## 6. [Large Language Models (LLMs) & Generative AI — How LLMs Became Popular](#key-topics)
 
 **Large Language Models are built by combining Transformer architectures with extensive datasets processed on specialized GPU infrastructure.**
 
@@ -316,7 +330,9 @@ Multimodal AI refers to systems capable of understanding, processing, and integr
 
 ---
 
-## 7. Where is the Industry Heading? — Why Agentic AI is the Next Evolution
+<a id="topic-7"></a>
+
+## 7. [Where is the Industry Heading? — Why Agentic AI is the Next Evolution](#key-topics)
 
 The landscape of artificial intelligence is evolving rapidly. Here's where it's all going:
 
