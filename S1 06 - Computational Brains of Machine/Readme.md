@@ -15,20 +15,24 @@
 
 ---
 
+<a id="key-topics"></a>
+
 ### Topics Covering
 
-> 1. Three Stages of LLM Inference
-> 2. GPT in ChatGPT — Generative Pre-trained Transformer
-> 3. Attention Is All You Need
-> 4. Self-Attention & Masked/Causal Self-Attention
-> 5. Multi-Head Attention & Residual Connections
-> 6. Feed-Forward Network (FFN)
-> 7. Linear Layer & Softmax — Probabilistic Output
-> 8. Query, Key, Value (Q, K, V) Mechanism
+> 1. [Three Stages of LLM Inference](#topic-1)
+> 2. [GPT in ChatGPT — Generative Pre-trained Transformer](#topic-2)
+> 3. [Attention Is All You Need](#topic-3)
+> 4. [Self-Attention & Masked/Causal Self-Attention](#topic-4)
+> 5. [Multi-Head Attention & Residual Connections](#topic-5)
+> 6. [Feed-Forward Network (FFN)](#topic-6)
+> 7. [Linear Layer & Softmax — Probabilistic Output](#topic-7)
+> 8. [Query, Key, Value (Q, K, V) Mechanism](#topic-8)
 
 ---
 
-## 1. Three Stages of LLM Inference
+<a id="topic-1"></a>
+
+## 1. [Three Stages of LLM Inference](#key-topics)
 
 Large Language Models function as **next-token predictors** through three core stages:
 
@@ -44,7 +48,9 @@ Large Language Models function as **next-token predictors** through three core s
 
 ---
 
-## 2. GPT in ChatGPT — Generative Pre-trained Transformer
+<a id="topic-2"></a>
+
+## 2. [GPT in ChatGPT — Generative Pre-trained Transformer](#key-topics)
 
 > **GPT** = **G**enerative **P**re-trained **T**ransformer
 
@@ -70,7 +76,9 @@ Large Language Models function as **next-token predictors** through three core s
 
 ---
 
-## 3. Attention Is All You Need
+<a id="topic-3"></a>
+
+## 3. [Attention Is All You Need](#key-topics)
 
 > 🔗 **Research Paper**: [Attention Is All You Need (2017)](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 
@@ -100,7 +108,9 @@ The attention mechanism allows the model to determine that "it" refers to "the c
 
 ---
 
-## 4. Self-Attention & Masked/Causal Self-Attention
+<a id="topic-4"></a>
+
+## 4. [Self-Attention & Masked/Causal Self-Attention](#key-topics)
 
 ### Self-Attention
 
@@ -150,7 +160,9 @@ In **autoregressive** models (like GPT), the model must predict the next token *
 
 ---
 
-## 5. Multi-Head Attention & Residual Connections
+<a id="topic-5"></a>
+
+## 5. [Multi-Head Attention & Residual Connections](#key-topics)
 
 ### Multi-Head Attention
 
@@ -203,7 +215,9 @@ Instead of completely replacing old information with the output of a layer, the 
 
 ---
 
-## 6. Feed-Forward Network (FFN)
+<a id="topic-6"></a>
+
+## 6. [Feed-Forward Network (FFN)](#key-topics)
 
 > "Attention lets tokens **communicate**. FFN lets each token **think independently** about what it learned."
 
@@ -228,7 +242,9 @@ A Feed-Forward Network is a key building block inside a Transformer that process
 
 ---
 
-## 7. Linear Layer & Softmax — Probabilistic Output
+<a id="topic-7"></a>
+
+## 7. [Linear Layer & Softmax — Probabilistic Output](#key-topics)
 
 After all Transformer blocks have processed the input, the final steps convert the refined embeddings into a **next-token prediction**:
 
@@ -263,7 +279,9 @@ After all Transformer blocks have processed the input, the final steps convert t
 
 ---
 
-## 8. Understanding the Query, Key, and Value (Q, K, V) Mechanism
+<a id="topic-8"></a>
+
+## 8. [Understanding the Query, Key, and Value (Q, K, V) Mechanism](#key-topics)
 
 The attention mechanism relies on three fundamental vectors to process information and determine relationships:
 
