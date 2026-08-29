@@ -15,21 +15,25 @@
 
 ---
 
+<a id="key-topics"></a>
+
 ### Topics Covering
 
-> 1. Token IDs — Labels Without Meaning
-> 2. Vectorisation
-> 3. Embeddings
-> 4. Dimensions in Embeddings
-> 5. Semantic Similarity
-> 6. Cosine Similarity
-> 7. Token Embeddings (Token vs Text, Static vs Contextual, Contextualisation)
-> 8. Bias in Embeddings
-> 9. Real-World Applications of Embeddings
+> 1. [Token IDs — Labels Without Meaning](#topic-1)
+> 2. [Vectorisation](#topic-2)
+> 3. [Embeddings](#topic-3)
+> 4. [Dimensions in Embeddings](#topic-4)
+> 5. [Semantic Similarity](#topic-5)
+> 6. [Cosine Similarity](#topic-6)
+> 7. [Token Embeddings (Token vs Text, Static vs Contextual, Contextualisation)](#topic-7)
+> 8. [Bias in Embeddings](#topic-8)
+> 9. [Real-World Applications of Embeddings](#topic-9)
 
 ---
 
-## 1. Token IDs — Labels Without Meaning
+<a id="topic-1"></a>
+
+## 1. [Token IDs — Labels Without Meaning](#key-topics)
 
 Machines process text by converting words into numerical identifiers known as **Token IDs**.
 
@@ -49,7 +53,9 @@ While machines operate efficiently on these numbers, humans naturally understand
 
 ---
 
-## 2. Vectorisation
+<a id="topic-2"></a>
+
+## 2. [Vectorisation](#key-topics)
 
 > "Vectorisation is the process of **converting information into numerical vectors**."
 >
@@ -79,7 +85,9 @@ Vectorisation can be applied to **Text, Images, Users, Products, or any informat
 
 ---
 
-## 3. Embeddings
+<a id="topic-3"></a>
+
+## 3. [Embeddings](#key-topics)
 
 > "An embedding is a **learned numerical representation** of an item that captures useful relationships with other items."
 
@@ -128,7 +136,9 @@ Here **king** and **queen** show a relationship (they are related) but **banana*
 
 ---
 
-## 4. Dimensions in Embeddings
+<a id="topic-4"></a>
+
+## 4. [Dimensions in Embeddings](#key-topics)
 
 ```
    king → [1, 2, 6.24, -2.3, ...]   ← hundreds or thousands of values
@@ -171,7 +181,9 @@ Through training, the numerical representations are adjusted so that useful rela
 
 ---
 
-## 5. Semantic Similarity
+<a id="topic-5"></a>
+
+## 5. [Semantic Similarity](#key-topics)
 
 > "Semantic similarity measures how **close two pieces of text are in meaning**."
 
@@ -206,7 +218,9 @@ An **embedding-based system** can represent both queries as vectors and discover
 
 ---
 
-## 6. Cosine Similarity
+<a id="topic-6"></a>
+
+## 6. [Cosine Similarity](#key-topics)
 
 > "Cosine similarity compares the **angle between two vectors**. It focuses more on **direction** than on absolute length."
 
@@ -271,7 +285,9 @@ These sentences generate **similar embedding values** as both center on evaluati
 
 ---
 
-## 7. Token Embeddings
+<a id="topic-7"></a>
+
+## 7. [Token Embeddings](#key-topics)
 
 #### From Token ID to Meaningful Vector
 
@@ -368,7 +384,9 @@ In a transformer-based language model, the token first receives an **initial tok
 
 ---
 
-## 8. Bias in Embeddings
+<a id="topic-8"></a>
+
+## 8. [Bias in Embeddings](#key-topics)
 
 > "Human-created data have a lot of flaws."
 
@@ -388,7 +406,9 @@ As a result, embeddings can also **encode undesirable associations**. For exampl
 
 ---
 
-## 9. Real-World Applications of Embeddings
+<a id="topic-9"></a>
+
+## 9. [Real-World Applications of Embeddings](#key-topics)
 
 > "An embedding is a **general technique** for representing information numerically."
 
