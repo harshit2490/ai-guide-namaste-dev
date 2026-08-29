@@ -15,19 +15,23 @@
 
 ---
 
+<a id="key-topics"></a>
+
 ### Topics Covering
 
-> 1. What is a Token?
-> 2. Words vs Characters vs Tokens
-> 3. Subword Tokenization & Why It Matters
-> 4. Vocabulary & Token IDs (with OpenAI Encodings)
-> 5. Types of Tokenization (BPE, WordPiece, Unigram)
-> 6. English vs Other Languages (Tokenization Fertility)
-> 7. Context Window & Prompt Optimization
+> 1. [What is a Token?](#topic-1)
+> 2. [Words vs Characters vs Tokens](#topic-2)
+> 3. [Subword Tokenization & Why It Matters](#topic-3)
+> 4. [Vocabulary & Token IDs (with OpenAI Encodings)](#topic-4)
+> 5. [Types of Tokenization (BPE, WordPiece, Unigram)](#topic-5)
+> 6. [English vs Other Languages (Tokenization Fertility)](#topic-6)
+> 7. [Context Window & Prompt Optimization](#topic-7)
 
 ---
 
-## 1. What is a Token?
+<a id="topic-1"></a>
+
+## 1. [What is a Token?](#key-topics)
 
 > "A token is a **fundamental unit of text** created by a tokenizer."
 
@@ -62,7 +66,9 @@ Because computers cannot directly process words, text must be **broken down into
 
 ---
 
-## 2. Comparing Words, Characters, and Tokens
+<a id="topic-2"></a>
+
+## 2. [Comparing Words, Characters, and Tokens](#key-topics)
 
 > While individual words frequently correspond to a single token, **complex or long words are often split into multiple sub-word tokens**.
 
@@ -89,9 +95,11 @@ Because computers cannot directly process words, text must be **broken down into
 
 ---
 
-## 3. Subword Tokenization — Why Models Use It
+<a id="topic-3"></a>
 
-> **Subword tokenization strikes an optimal balance** between two traditional approaches:
+## 3. [Subword Tokenization — Why Models Use It](#key-topics)
+
+**Subword tokenization strikes an optimal balance** between two traditional approaches:
 
 | Approach                    | Problem                               | Example                                     |
 | --------------------------- | ------------------------------------- | ------------------------------------------- |
@@ -115,7 +123,9 @@ Because computers cannot directly process words, text must be **broken down into
 
 ---
 
-## 4. Vocabulary & Token IDs
+<a id="topic-4"></a>
+
+## 4. [Vocabulary & Token IDs](#key-topics)
 
 > "The vocabulary is the **collection of tokens** that the tokenizer knows how to represent directly."
 
@@ -153,7 +163,9 @@ Every tokenizer has a vocabulary — a lookup table mapping text pieces to numer
 
 ---
 
-## 5. Types of Tokenization
+<a id="topic-5"></a>
+
+## 5. [Types of Tokenization](#key-topics)
 
 ### (A). Byte-Pair Encoding (BPE)
 
@@ -235,7 +247,9 @@ graph LR
 
 ---
 
-## 6. English vs Other Languages — Tokenization Fertility
+<a id="topic-6"></a>
+
+## 6. [English vs Other Languages — Tokenization Fertility](#key-topics)
 
 > "Two sentences with the **same meaning** do not necessarily have the **same token count**."
 
@@ -287,7 +301,9 @@ graph LR
 
 ---
 
-## 7. Context Window & Prompt Optimization
+<a id="topic-7"></a>
+
+## 7. [Context Window & Prompt Optimization](#key-topics)
 
 > "A context window is the **amount of tokenised information** a model can process within a request or active generation context."
 
