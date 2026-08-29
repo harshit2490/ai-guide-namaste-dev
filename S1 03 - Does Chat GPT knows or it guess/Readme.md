@@ -15,19 +15,23 @@
 
 ---
 
+<a id="key-topics"></a>
+
 ### Topics Covering
 
-> 1. Search Engines vs Large Language Models
-> 2. How LLMs Generate Text (Next Token Prediction)
-> 3. Knowledge Cutoff & What LLMs Know
-> 4. Base Models & Architecture Flow
-> 5. Understanding Inference
-> 6. AI Hallucinations
-> 7. Tools & RAG — Giving LLMs Superpowers
+> 1. [Search Engines vs Large Language Models](#topic-1)
+> 2. [How LLMs Generate Text (Next Token Prediction)](#topic-2)
+> 3. [Knowledge Cutoff & What LLMs Know](#topic-3)
+> 4. [Base Models & Architecture Flow](#topic-4)
+> 5. [Understanding Inference](#topic-5)
+> 6. [AI Hallucinations](#topic-6)
+> 7. [Tools & RAG — Giving LLMs Superpowers](#topic-7)
 
 ---
 
-## 1. Search Engines vs Large Language Models (LLMs)
+<a id="topic-1"></a>
+
+## 1. [Search Engines vs Large Language Models (LLMs)](#key-topics)
 
 > While both Search Engines and Large Language Models are designed to assist users in retrieving information, their underlying architectures, data retrieval mechanics, and primary functions **differ fundamentally**.
 
@@ -96,7 +100,9 @@
 
 ---
 
-## 2. How LLMs Generate Text — Next Token Prediction
+<a id="topic-2"></a>
+
+## 2. [How LLMs Generate Text — Next Token Prediction](#key-topics)
 
 **Large Language Models (LLMs) operate by predicting the most likely next word or token in a sequence.**
 
@@ -155,7 +161,9 @@
 
 ---
 
-## 3. Knowledge Cutoff — What Does an LLM Actually "Know"?
+<a id="topic-3"></a>
+
+## 3. [Knowledge Cutoff — What Does an LLM Actually "Know"?](#key-topics)
 
 > **A trained neural network consists of a vast collection of numbers known as parameters or weights.** These numerical values are continuously updated and refined throughout the training process.
 
@@ -167,7 +175,7 @@
 
 #### Real-World Example
 
-> 💡 A model might correctly identify the Chief Minister of Uttar Pradesh as **"Shri Yogi Adityanath Ji Maharaj"**, but it will not automatically register updates when new elections take place in 2027. **_(But in 2027 Maharaj Ji will be CM again 😀)_**
+> 💡 A model might correctly identify the Chief Minister of Uttar Pradesh as **"Shri Yogi Adityanath Ji Maharaj"**, but it will not automatically register updates when new elections take place in 2027. **_(But in 2027 he will be CM again 😀)_**
 
 ```
    ┌───────────────────────────────────────────────────────────┐
@@ -187,7 +195,9 @@
 
 ---
 
-## 4. Base Models & Architecture Flow
+<a id="topic-4"></a>
+
+## 4. [Base Models & Architecture Flow](#key-topics)
 
 > **A base model is fundamentally trained to predict the next token or string of text.**
 
@@ -249,7 +259,9 @@ graph LR
 
 ---
 
-## 5. Understanding Inference
+<a id="topic-5"></a>
+
+## 5. [Understanding Inference](#key-topics)
 
 **Inference** refers to the execution phase where a trained model processes input and returns generated output.
 
@@ -278,7 +290,9 @@ graph LR
 
 ---
 
-## 6. AI Hallucinations
+<a id="topic-6"></a>
+
+## 6. [AI Hallucinations](#key-topics)
 
 > "A hallucination occurs when an AI model generates information that appears plausible but is unsupported, incorrect, misleading, or fabricated."
 
@@ -333,7 +347,9 @@ graph LR
 
 ---
 
-## 7. Tools & RAG — Giving LLMs Superpowers
+<a id="topic-7"></a>
+
+## 7. [Tools & RAG — Giving LLMs Superpowers](#key-topics)
 
 **Tools give models superpowers** — extending their capabilities far beyond static text generation.
 
