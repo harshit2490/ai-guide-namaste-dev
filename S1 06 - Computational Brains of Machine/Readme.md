@@ -1,6 +1,6 @@
 <div align="center">
 
-|                                                  ← Previous                                                  | [⬆ Back to TOC](../README.md#part-1) |                                         Next →                                         |
+|                                                  ← Previous                                                  | [⬆ Back to TOC](../README.md#part-2) |                                         Next →                                         |
 | :----------------------------------------------------------------------------------------------------------: | :----------------------------------: | :------------------------------------------------------------------------------------: |
 | [Chapter 5: How Machine Represents Meaning](../S1%2005%20-%20How%20Machine%20represents%20Meaning/Readme.md) |                                      | [Chapter 7: Sharpening the Brain](../S1%2007%20-%20Sharpening%20the%20Brain/Readme.md) |
 
@@ -418,7 +418,7 @@ The model computes **attention scores** (relevance) between Q and each K. Once t
 
 <div align="center">
 
-|                                                  ← Previous                                                  | [⬆ Back to TOC](../README.md#part-1) |                                         Next →                                         |
+|                                                  ← Previous                                                  | [⬆ Back to TOC](../README.md#part-2) |                                         Next →                                         |
 | :----------------------------------------------------------------------------------------------------------: | :----------------------------------: | :------------------------------------------------------------------------------------: |
 | [Chapter 5: How Machine Represents Meaning](../S1%2005%20-%20How%20Machine%20represents%20Meaning/Readme.md) |                                      | [Chapter 7: Sharpening the Brain](../S1%2007%20-%20Sharpening%20the%20Brain/Readme.md) |
 
