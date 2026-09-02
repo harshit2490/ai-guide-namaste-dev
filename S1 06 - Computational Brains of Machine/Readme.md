@@ -341,15 +341,15 @@ The model computes **attention scores** (relevance) between Q and each K. Once t
 
 ### Common Misconceptions
 
-| Misconception                                   | Reality                                                                                                                   |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| "Transformers read text word by word"           | ❌ Transformers process **entire sequences at once** using attention — unlike RNNs which process sequentially             |
-| "Attention means the model understands meaning" | ❌ Attention computes **relevance scores** between tokens — it captures statistical patterns, not true understanding      |
-| "GPT = ChatGPT"                                 | ❌ GPT is the **architecture** (Generative Pre-trained Transformer). ChatGPT is OpenAI's specific **product** built on it |
-| "Each Transformer layer starts from scratch"    | ❌ **Residual connections** preserve information — each layer adds an update on top of existing representations           |
-| "FFN and Attention do the same thing"           | ❌ Attention lets tokens **communicate**; FFN lets each token **process independently**                                   |
-| "Softmax picks the best word"                   | ❌ Softmax produces a **probability distribution** over all vocabulary tokens — it doesn't "pick" a single word           |
-| "Self-attention can see future tokens"          | ❌ In GPT-style models, **masked/causal** self-attention blocks future tokens — information flows past → present only     |
+| Misconception                                     | Reality                                                                                                                   |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| ❌ "Transformers read text word by word"           | ✅ Transformers process **entire sequences at once** using attention — unlike RNNs which process sequentially             |
+| ❌ "Attention means the model understands meaning" | ✅ Attention computes **relevance scores** between tokens — it captures statistical patterns, not true understanding      |
+| ❌ "GPT = ChatGPT"                                 | ✅ GPT is the **architecture** (Generative Pre-trained Transformer). ChatGPT is OpenAI's specific **product** built on it |
+| ❌ "Each Transformer layer starts from scratch"    | ✅ **Residual connections** preserve information — each layer adds an update on top of existing representations           |
+| ❌ "FFN and Attention do the same thing"           | ✅ Attention lets tokens **communicate**; FFN lets each token **process independently**                                   |
+| ❌ "Softmax picks the best word"                   | ✅ Softmax produces a **probability distribution** over all vocabulary tokens — it doesn't "pick" a single word           |
+| ❌ "Self-attention can see future tokens"          | ✅ In GPT-style models, **masked/causal** self-attention blocks future tokens — information flows past → present only     |
 
 <div style="font-size: 22px; color: red">
 <details>
