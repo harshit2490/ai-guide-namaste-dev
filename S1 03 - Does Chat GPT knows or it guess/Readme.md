@@ -399,16 +399,16 @@ graph LR
 
 ### Common Misconceptions
 
-| Misconception                                          | Reality                                                                                                                         |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| "ChatGPT searches the internet for answers"            | ❌ By default, LLMs generate text from **learned patterns** — they don't search the web unless equipped with search tools (RAG) |
-| "If ChatGPT says it confidently, it must be true"      | ❌ **Fake fluency ≠ truthfulness**. Models produce linguistically polished text regardless of factual accuracy                  |
-| "LLMs understand what they're saying"                  | ❌ LLMs are **statistical pattern matchers** — they predict the most probable next token, not "understand" meaning              |
-| "ChatGPT has access to real-time information"          | ❌ Without tools, LLMs are limited to their **training data cutoff date** — they don't know about recent events                 |
-| "AI hallucinations happen because the model is broken" | ❌ Hallucinations are an **inherent feature** of probabilistic text generation — the model fills gaps when uncertain            |
-| "Google and ChatGPT work the same way"                 | ❌ Google **retrieves existing documents**; ChatGPT **generates new text**. Fundamentally different architectures               |
-| "LLMs can never give accurate answers"                 | ❌ LLMs are highly accurate for well-represented knowledge in training data. **RAG and tools** further improve accuracy         |
-| "If AI says 'I don't know', it's failing"              | ❌ Saying "I don't know" is actually a **safety feature** — instruction tuning and guardrails teach models to admit uncertainty |
+| Misconception                                             | Reality                                                                                                                         |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| ❌ "ChatGPT searches the internet for answers"            | ✅ By default, LLMs generate text from **learned patterns** — they don't search the web unless equipped with search tools (RAG) |
+| ❌ "If ChatGPT says it confidently, it must be true"      | ✅ **Fake fluency ≠ truthfulness**. Models produce linguistically polished text regardless of factual accuracy                  |
+| ❌ "LLMs understand what they're saying"                  | ✅ LLMs are **statistical pattern matchers** — they predict the most probable next token, not "understand" meaning              |
+| ❌ "ChatGPT has access to real-time information"          | ✅ Without tools, LLMs are limited to their **training data cutoff date** — they don't know about recent events                 |
+| ❌ "AI hallucinations happen because the model is broken" | ✅ Hallucinations are an **inherent feature** of probabilistic text generation — the model fills gaps when uncertain            |
+| ❌ "Google and ChatGPT work the same way"                 | ✅ Google **retrieves existing documents**; ChatGPT **generates new text**. Fundamentally different architectures               |
+| ❌ "LLMs can never give accurate answers"                 | ✅ LLMs are highly accurate for well-represented knowledge in training data. **RAG and tools** further improve accuracy         |
+| ❌ "If AI says 'I don't know', it's failing"              | ✅ Saying "I don't know" is actually a **safety feature** — instruction tuning and guardrails teach models to admit uncertainty |
 
 <div style="font-size: 22px; color: red">
 <details>
