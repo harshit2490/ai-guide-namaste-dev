@@ -452,15 +452,15 @@ graph TB
 
 ### Common Misconceptions
 
-| Misconception                                            | Reality                                                                                                    |
-| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| "An embedding is a dictionary of tokens"                 | ❌ An embedding is a **numerical representation capturing learned relationships**                          |
-| "Each dimension has one clear human meaning"             | ❌ Meaning is **distributed across many dimensions** — no single dimension = "sweetness" or "royalty"      |
-| "Similar embeddings mean identical meaning"              | ❌ They may indicate **topic similarity, association, opposition, category membership**, or shared context |
-| "Embedding similarity proves a statement is true"        | ❌ Similarity measures **relatedness, not truth**                                                          |
-| "One embedding model works equally well for every task"  | ❌ Performance depends on **language, domain, data type, text length, training objective**, etc            |
-| "Visual clusters perfectly represent the original space" | ❌ 2D and 3D projections **lose information** from the original high-dimensional space                     |
-| "A larger embedding dimension is always better"          | ❌ Larger representations create **trade-offs in storage, latency, cost, and quality**                     |
+| Misconception                                              | Reality                                                                                                    |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| ❌ "An embedding is a dictionary of tokens"                 | ✅ An embedding is a **numerical representation capturing learned relationships**                          |
+| ❌ "Each dimension has one clear human meaning"             | ✅ Meaning is **distributed across many dimensions** — no single dimension = "sweetness" or "royalty"      |
+| ❌ "Similar embeddings mean identical meaning"              | ✅ They may indicate **topic similarity, association, opposition, category membership**, or shared context |
+| ❌ "Embedding similarity proves a statement is true"        | ✅ Similarity measures **relatedness, not truth**                                                          |
+| ❌ "One embedding model works equally well for every task"  | ✅ Performance depends on **language, domain, data type, text length, training objective**, etc            |
+| ❌ "Visual clusters perfectly represent the original space" | ✅ 2D and 3D projections **lose information** from the original high-dimensional space                     |
+| ❌ "A larger embedding dimension is always better"          | ✅ Larger representations create **trade-offs in storage, latency, cost, and quality**                     |
 
 <div style="font-size: 22px; color: red">
 <details>
