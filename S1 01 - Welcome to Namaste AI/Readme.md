@@ -1,8 +1,8 @@
 <div align="center">
 
-|            ← Previous            | [⬆ Back to TOC](../README.md#part-1) |                                          Next →                                           |
-| :------------------------------: | :-----------------------------------: | :---------------------------------------------------------------------------------------: |
-| —                                |                                       | [Chapter 2: Evolution of AI](../S1%2002%20-%20Evolution%20of%20AI/Readme.md) |
+| ← Previous | [⬆ Back to TOC](../README.md#part-1) |                                    Next →                                    |
+| :--------: | :----------------------------------: | :--------------------------------------------------------------------------: |
+|     —      |                                      | [Chapter 2: Evolution of AI](../S1%2002%20-%20Evolution%20of%20AI/Readme.md) |
 
 </div>
 
@@ -13,7 +13,21 @@
 > **Season 1** | Part I — AI Foundations & Concepts
 > [🎬Link](https://namastedev.com/learn/namaste-ai/welcome-to-namaste-ai)
 
-### AI vs ML vs DL vs GenAI vs LLM
+---
+
+<a id="key-topics"></a>
+
+### Topics Covering
+
+> 1. [AI vs ML vs DL vs GenAI vs LLM](#topic-1)
+> 2. [Why AI Matters Now](#topic-2)
+> 3. [How Modern AI Systems Work (High-Level)](#topic-3)
+
+---
+
+<a id="topic-1"></a>
+
+## 1. [AI vs ML vs DL vs GenAI vs LLM](#key-topics)
 
 Understanding the hierarchy of AI is essential before diving deeper:
 
@@ -47,7 +61,11 @@ Understanding the hierarchy of AI is essential before diving deeper:
 | **GenAI (Generative AI)**        | Subset of DL — models that **generate new content** (text, images, code, audio)                     | ChatGPT, DALL·E, GitHub Copilot        |
 | **LLM (Large Language Model)**   | A type of GenAI — massive models trained on text data to **understand and generate human language** | GPT-4, Claude, Gemini, LLaMA           |
 
-### Why AI Matters Now
+---
+
+<a id="topic-2"></a>
+
+## 2. [Why AI Matters Now](#key-topics)
 
 AI has been around since the 1950s, but several factors have made it explode in recent years:
 
@@ -59,7 +77,11 @@ AI has been around since the 1950s, but several factors have made it explode in 
 | **Open-Source Models**       | Meta's LLaMA, Google's Gemma, Mistral — open models democratized access to powerful AI                 |
 | **Developer Tools**          | APIs from OpenAI, Anthropic, Google make it easy for any developer to integrate AI into applications   |
 
-### How Modern AI Systems Work (High-Level)
+---
+
+<a id="topic-3"></a>
+
+## 3. [How Modern AI Systems Work (High-Level)](#key-topics)
 
 At a very high level, here's what happens when you type a question into ChatGPT:
 
@@ -98,15 +120,15 @@ At a very high level, here's what happens when you type a question into ChatGPT:
 
 ### Common Misconceptions
 
-| Misconception                                         | Reality                                                                                                                                                    |
-| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| "AI and Machine Learning are the same thing"          | ❌ AI is the broad field; ML is a **subset** of AI that learns from data. Not all AI uses ML (e.g., rule-based expert systems)                             |
-| "ChatGPT understands what it's saying"                | ❌ LLMs predict the **most likely next token** based on patterns learned from training data — they don't have understanding, consciousness, or beliefs      |
-| "AI will replace all software developers"             | ❌ AI is a **tool that augments** developers. It automates repetitive tasks but still needs human judgment for architecture, debugging, and complex reasoning |
-| "You need a PhD to work with AI"                      | ❌ Modern APIs (OpenAI, Anthropic, Google) let any developer **integrate AI** with a few lines of code. Deep math is needed to build models, not to use them |
-| "AI = Chatbots"                                       | ❌ Chatbots are just one application. AI powers search engines, recommendation systems, self-driving cars, medical diagnosis, code generation, and much more |
-| "Prompt Engineering is just asking questions nicely"   | ❌ It's a systematic discipline involving **context structuring, few-shot examples, chain-of-thought reasoning**, and output formatting for reliable results |
-| "RAG and Fine-tuning are the same thing"              | ❌ RAG **retrieves** external data at query time; Fine-tuning **retrains** the model's weights. Different techniques for different use cases                |
+| Misconception                                           | Reality                                                                                                                                                       |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ❌ "AI and Machine Learning are the same thing"         | ✅ AI is the broad field; ML is a **subset** of AI that learns from data. Not all AI uses ML (e.g., rule-based expert systems)                                |
+| ❌ "ChatGPT understands what it's saying"               | ✅ LLMs predict the **most likely next token** based on patterns learned from training data — they don't have understanding, consciousness, or beliefs        |
+| ❌ "AI will replace all software developers"            | ✅ AI is a **tool that augments** developers. It automates repetitive tasks but still needs human judgment for architecture, debugging, and complex reasoning |
+| ❌ "You need a PhD to work with AI"                     | ✅ Modern APIs (OpenAI, Anthropic, Google) let any developer **integrate AI** with a few lines of code. Deep math is needed to build models, not to use them  |
+| ❌ "AI = Chatbots"                                      | ✅ Chatbots are just one application. AI powers search engines, recommendation systems, self-driving cars, medical diagnosis, code generation, and much more  |
+| ❌ "Prompt Engineering is just asking questions nicely" | ✅ It's a systematic discipline involving **context structuring, few-shot examples, chain-of-thought reasoning**, and output formatting for reliable results  |
+| ❌ "RAG and Fine-tuning are the same thing"             | ✅ RAG **retrieves** external data at query time; Fine-tuning **retrains** the model's weights. Different techniques for different use cases                  |
 
 <div style="font-size: 22px; color: red">
 <details>
@@ -137,6 +159,9 @@ At a very high level, here's what happens when you type a question into ChatGPT:
 - **Q: What is MCP (Model Context Protocol)?**
   - A: MCP is a standard protocol for connecting AI models to external tools and data sources. It provides a standardized interface for AI models to discover, connect to, and interact with tools, databases, and APIs — making AI applications more modular and interoperable.
 
+- **Q: How does an LLM generate a response?**
+  - A: An LLM generates responses by: (1) Tokenizing the input text into sub-word tokens, (2) Converting tokens into numerical embeddings, (3) Processing through transformer layers with attention mechanisms, (4) Predicting the next token one at a time (autoregressively) until the response is complete.
+
     </div>
   </details>
   </div>
@@ -156,8 +181,8 @@ At a very high level, here's what happens when you type a question into ChatGPT:
 
 <div align="center">
 
-|            ← Previous            | [⬆ Back to TOC](../README.md#part-1) |                                          Next →                                           |
-| :------------------------------: | :-----------------------------------: | :---------------------------------------------------------------------------------------: |
-| —                                |                                       | [Chapter 2: Evolution of AI](../S1%2002%20-%20Evolution%20of%20AI/Readme.md) |
+| ← Previous | [⬆ Back to TOC](../README.md#part-1) |                                    Next →                                    |
+| :--------: | :----------------------------------: | :--------------------------------------------------------------------------: |
+|     —      |                                      | [Chapter 2: Evolution of AI](../S1%2002%20-%20Evolution%20of%20AI/Readme.md) |
 
 </div>
