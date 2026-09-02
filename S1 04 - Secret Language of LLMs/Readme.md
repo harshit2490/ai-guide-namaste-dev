@@ -347,15 +347,15 @@ graph LR
 
 ### Common Misconceptions
 
-| Misconception                                | Reality                                                                                                                                       |
-| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| "One token equals one word"                  | ❌ Tokens map to **sub-word units, punctuation, or spaces** — not full words. Complex/rare words split into multiple tokens                   |
-| "Every model uses the same tokenizer"        | ❌ Different model families use **distinct tokenization algorithms** and vocabulary sets (o200k_base vs cl100k_base vs r50k_base)             |
-| "Token ID represents meaning"                | ❌ A Token ID is just an **arbitrary integer index**. Semantic meaning is captured later in dense vector embeddings inside the neural network |
-| "One visible emoji equals one token"         | ❌ Emojis often consist of **multiple Unicode code points** (skin tone, gender) — a single emoji can be **2 to 6+ tokens**                    |
-| "A larger vocabulary is always better"       | ❌ Larger vocab reduces sequence length but **expands embedding/output layers** — higher memory overhead and compute cost                     |
-| "Larger context means perfect memory"        | ❌ Models suffer from **attention degradation** ("lost in the middle" effect) — info in the middle of long inputs gets overlooked             |
-| "More tokens always produce a better answer" | ❌ Excessive prompting increases **latency, cost, and hallucination risk** — concise, well-structured inputs yield superior quality           |
+| Misconception                                  | Reality                                                                                                                                       |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| ❌ "One token equals one word"                  | ✅ Tokens map to **sub-word units, punctuation, or spaces** — not full words. Complex/rare words split into multiple tokens                   |
+| ❌ "Every model uses the same tokenizer"        | ✅ Different model families use **distinct tokenization algorithms** and vocabulary sets (o200k_base vs cl100k_base vs r50k_base)             |
+| ❌ "Token ID represents meaning"                | ✅ A Token ID is just an **arbitrary integer index**. Semantic meaning is captured later in dense vector embeddings inside the neural network |
+| ❌ "One visible emoji equals one token"         | ✅ Emojis often consist of **multiple Unicode code points** (skin tone, gender) — a single emoji can be **2 to 6+ tokens**                    |
+| ❌ "A larger vocabulary is always better"       | ✅ Larger vocab reduces sequence length but **expands embedding/output layers** — higher memory overhead and compute cost                     |
+| ❌ "Larger context means perfect memory"        | ✅ Models suffer from **attention degradation** ("lost in the middle" effect) — info in the middle of long inputs gets overlooked             |
+| ❌ "More tokens always produce a better answer" | ✅ Excessive prompting increases **latency, cost, and hallucination risk** — concise, well-structured inputs yield superior quality           |
 
 <div style="font-size: 22px; color: red">
 <details>
