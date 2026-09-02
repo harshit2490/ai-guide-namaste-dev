@@ -408,16 +408,16 @@ The landscape of artificial intelligence is evolving rapidly. Here's where it's 
 
 ### Common Misconceptions
 
-| Misconception                                        | Reality                                                                                                                                                 |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| "AI was invented with ChatGPT"                       | ❌ AI has been around since **1950** (Turing Test). ChatGPT (2022) was a breakthrough in accessibility, not the invention of AI                         |
-| "Machine Learning and Deep Learning are the same"    | ❌ ML is the broader field using algorithms on structured data; DL is a **subset** using multi-layered neural networks on unstructured data             |
-| "Deep Learning doesn't need data"                    | ❌ DL requires **massive datasets** (Big Data) — the more data, the better the model performs                                                           |
-| "Transformers process words one at a time like RNNs" | ❌ Transformers process **all tokens in parallel** using self-attention — that's why they're faster and more scalable                                   |
-| "LLMs truly understand language"                     | ❌ LLMs are sophisticated **pattern matchers** — they predict the most likely next token, they don't have genuine understanding                         |
-| "You need to build your own LLM to use AI"           | ❌ APIs from OpenAI, Anthropic, Google let you **integrate existing LLMs** with a few lines of code                                                     |
-| "Rule-based AI is completely obsolete"               | ❌ Rule-based systems are still used in **regulatory compliance, business logic, and safety-critical systems** where deterministic behavior is required |
-| "AI Agents are just chatbots with extra steps"       | ❌ Agents can **reason, plan, use tools, and take autonomous actions** — chatbots only respond to direct prompts                                        |
+| Misconception                                           | Reality                                                                                                                                                 |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ❌ "AI was invented with ChatGPT"                       | ✅ AI has been around since **1950** (Turing Test). ChatGPT (2022) was a breakthrough in accessibility, not the invention of AI                         |
+| ❌ "Machine Learning and Deep Learning are the same"    | ✅ ML is the broader field using algorithms on structured data; DL is a **subset** using multi-layered neural networks on unstructured data             |
+| ❌ "Deep Learning doesn't need data"                    | ✅ DL requires **massive datasets** (Big Data) — the more data, the better the model performs                                                           |
+| ❌ "Transformers process words one at a time like RNNs" | ✅ Transformers process **all tokens in parallel** using self-attention — that's why they're faster and more scalable                                   |
+| ❌ "LLMs truly understand language"                     | ✅ LLMs are sophisticated **pattern matchers** — they predict the most likely next token, they don't have genuine understanding                         |
+| ❌ "You need to build your own LLM to use AI"           | ✅ APIs from OpenAI, Anthropic, Google let you **integrate existing LLMs** with a few lines of code                                                     |
+| ❌ "Rule-based AI is completely obsolete"               | ✅ Rule-based systems are still used in **regulatory compliance, business logic, and safety-critical systems** where deterministic behavior is required |
+| ❌ "AI Agents are just chatbots with extra steps"       | ✅ Agents can **reason, plan, use tools, and take autonomous actions** — chatbots only respond to direct prompts                                        |
 
 <div style="font-size: 22px; color: red">
 <details>
