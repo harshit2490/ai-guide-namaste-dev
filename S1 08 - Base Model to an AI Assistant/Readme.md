@@ -584,7 +584,7 @@ What changed is **which next-token sequences became more likely** in conversatio
 | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | ❌ "ChatGPT is just trained on internet data"        | ✅ It goes through **multiple stages**: pre-training, SFT, instruction tuning, RLHF, and safety systems                             |
 | ❌ "Post-training teaches the model new knowledge"   | ✅ Post-training primarily shapes **behaviour**, not capabilities — knowledge comes from pre-training                               |
-| ❌ "RLHF makes the model perfect"                    | ✅ RLHF uses an **imperfect proxy** (reward scores) and is susceptible to reward hacking and Goodhart's Law                         |
+| ❌ "**RLHF** makes the model perfect"                    | ✅ RLHF uses an **imperfect proxy** (reward scores) and is susceptible to reward hacking and Goodhart's Law                         |
 | ❌ "The Reward Model captures full human judgment"   | ✅ It compresses complex multi-dimensional preferences into a **single score** — a lossy approximation                              |
 | ❌ "Helpful means always agreeing with the user"     | ✅ Sometimes good behaviour means **correcting the user** and prioritising accuracy over agreement                                  |
 | ❌ "Fine-tuning uses a different learning mechanism" | ✅ Fine-tuning uses the **same core loop** (forward pass → loss → backprop → update) — only the dataset changes                     |
@@ -636,7 +636,7 @@ What changed is **which next-token sequences became more likely** in conversatio
 
 **Q7. What is Supervised Fine-Tuning (SFT)?**
 
-**A.** SFT means continuing the training of a pretrained model on a smaller, targeted dataset of **User → Assistant** examples. The model's parameters are not reset — training resumes from the pretrained state. The learning mechanism (forward pass → loss → backprop → update) remains identical; only the dataset changes.
+**A.** SFT means continuing the training of a pretrained model on a smaller, targeted dataset of **User → Assistant** examples. The model's parameters are not reset — training resumes from the pretrained state. The learning mechanism **(forward pass → loss → backprop → update)** remains identical; only the dataset changes.
 
 ---
 
