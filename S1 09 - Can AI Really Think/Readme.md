@@ -245,7 +245,7 @@ graph LR
     D --> A
 ```
 
-### RLVR — Reinforcement Learning with Verifiable Rewards
+### [Reinforcement Learning from Human Feedback (RLHF)](../S1%2008%20-%20Base%20Model%20to%20an%20AI%20Assistant/Readme.md#topic-9)
 
 > RLHF has a weakness: humans are expensive, preferences are subjective, and humans make mistakes. In certain domains, the **environment itself** can tell us whether an answer is correct.
 
