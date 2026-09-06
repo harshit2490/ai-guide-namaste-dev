@@ -1,4 +1,4 @@
-# 🚀 The Complete AI Guide — Beginner to Advanced
+# 🚀 The Complete AI Guide — Beginner to Advanced [2026]
 
 > 💬 "Time is the biggest currency." — This course is designed to respect your time. Every concept is explained with clarity and depth, so you learn the right things in the right order — no fluff, no filler. It is Based on the Namaste AI series by Akshay Saini.
 
