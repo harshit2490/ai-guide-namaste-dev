@@ -8,7 +8,7 @@
 
 ---
 
-# Chapter 8 — From a Base Model to an AI Assistant &nbsp;
+# Chapter 9 — Can AI Really Think &nbsp;
 
 > **Season 1** | Part II — Training, Computation & Reasoning
 > [🎬Link](https://namastedev.com/learn/namaste-ai/can-ai-really-think)
